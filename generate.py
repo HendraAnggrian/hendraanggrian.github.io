@@ -31,7 +31,7 @@ def gh_repo(name):
   if not logged_in:
     time.sleep(2.0) # Take a nap so GitHub doesn't aggressively throttle us.
 
-  repo = ghclient.repos.get(user='square', repo=name)
+  repo = ghclient.repos.get(user='hendraanggrian', repo=name)
   return dict(
     name=repo.name,
     homepage=repo.homepage,
@@ -93,7 +93,7 @@ for category_name in sorted(categories.keys(), key=lambda s: s.lower() if s is n
       'website': repo_data.get('homepage', None),
       'description': repo_data.get('description', None)
     }
-    if os.path.exists(os.path.join('repo_images', '%s.jpg' % name)):
+    if os.path.exists(os.path.join('repo_images', '%s.gif' % name)):
       data['repos_with_images'].append(repo)
       data['has_repos_with_images'] = True
     else:
