@@ -141,9 +141,9 @@ html {
   min-width: 320px;
 }
 body {
-  background: #fff;
+  background: #212121;
   *zoom: 1;
-  color: #2d3c48;
+  color: #fff;
   font: 14px "SQMarket", "Helvetica Neue", sans-serif;
   line-height: 20px;
   width: 100%;
@@ -161,7 +161,7 @@ body.modal {
   overflow-y: hidden;
 }
 a {
-  color: #3e8cb7;
+  color: #448aff;
   text-decoration: none;
 }
 button, input, textarea {
@@ -213,8 +213,8 @@ p {
   min-height: 511px;
 }
 .footer {
-  background: #f4f5f6;
-  border-top: 1px solid #eff0f1;
+  background: #424242;
+  border-top: 1px solid #424242;
   width: 100%}
 .footer-navigation {
   color: #b0b8c1;
@@ -290,7 +290,7 @@ p {
 .menu-category-name, .homepage-section-name, .module-name {
   font-size: 1.57143em;
   line-height: 1.18182em;
-  color: #2d3c48;
+  color: #fff;
   font-weight: 300;
   position: relative;
   left: -1px;
@@ -614,7 +614,7 @@ p {
   text-align: center;
 }
 .profile-description:before {
-  border-top: 1px solid #eff0f1;
+  border-top: 1px solid #424242;
   content: "";
   display: block;
   margin: 0 -5px;
@@ -668,7 +668,7 @@ p {
   padding-top: 3em;
 }
 .menu-category:first-of-type:before {
-  border-top: 1px solid #eff0f1;
+  border-top: 1px solid #424242;
   content: "";
   display: block;
   margin: 0 -5px;
@@ -681,7 +681,7 @@ p {
   padding-bottom: 0.92857em;
 }
 .menu-category:not(:first-of-type):before {
-  border-top: 1px solid #eff0f1;
+  border-top: 1px solid #424242;
   content: "";
   display: block;
   margin: 0 -5px;
@@ -785,7 +785,7 @@ p {
   overflow: hidden;
 }
 .menu-item-price {
-  color: #72b16e;
+  color: #83b9ff;
   display: block;
 }
 .menu-item-variations .menu-item-price {
@@ -795,10 +795,10 @@ p {
   display: inline-block;
 }
 .menu-item-price-range {
-  color: #72b16e;
+  color: #83b9ff;
 }
 .menu-item-price a, .menu-item-price-range a {
-  color: #72b16e;
+  color: #83b9ff;
 }
 .menu-item-variations {
   margin-top: 0.21429em;
@@ -837,7 +837,7 @@ p {
   padding-top: 0.71429em;
 }
 .profile-modules:before {
-  border-top: 1px solid #eff0f1;
+  border-top: 1px solid #424242;
   content: "";
   display: block;
   margin: 0 -5px;
@@ -848,7 +848,7 @@ p {
   padding-bottom: 2.42857em;
 }
 .profile-module:before {
-  border-top: 1px solid #eff0f1;
+  border-top: 1px solid #424242;
   content: "";
   display: block;
   margin: 0 -5px;
