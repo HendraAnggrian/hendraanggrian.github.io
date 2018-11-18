@@ -1,7 +1,7 @@
 Square Open Source Portal
 =========================
 
-[![Build Status](https://travis-ci.org/hendraanggrian/hendraanggrian.github.io.svg?branch=master)](https://travis-ci.org/hendraanggrian/hendraanggrian.github.io)
+[![Build Status](https://travis-ci.com/hendraanggrian/hendraanggrian.github.io.svg?branch=master)](https://travis-ci.com/hendraanggrian/hendraanggrian.github.io)
 
 A simple, static portal which outlines our open source offerings. Intentionally
 themed to look like a Square merchant page on the directory.
