@@ -16,7 +16,8 @@
     "dispatcher": ["Android"],
     "pikasso": ["Android"],
     "bundler": ["Android"],
-    "recyclerview-paginated": ["Android"]
+    "recyclerview-paginated": ["Android"],
+    "recyclerview-expandable": ["Android"]
   },
   "custom": []
 }
