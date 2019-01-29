@@ -1,7 +1,10 @@
 {
   "repos": {
-    "ktfx": ["JavaFX"],
-    "openpss": ["JavaFX"],
+    "defaults": ["Java", "Android"],
+
+    "ktfx": ["Java"],
+    "openpss": ["Java"],
+    "plano": ["Java"],
 
     "r-gradle-plugin": ["Gradle plugin"],
     "buildconfig-gradle-plugin": ["Gradle plugin"],
@@ -9,7 +12,6 @@
 
     "countrypicker": ["Android"],
     "collapsingtoolbarlayout-subtitle": ["Android"],
-    "preferencer": ["Android"],
     "errorbar": ["Android"],
     "pinview": ["Android"],
     "socialview": ["Android"],
