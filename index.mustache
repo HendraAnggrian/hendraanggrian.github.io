@@ -33,7 +33,7 @@
           <!-- TODO header? -->
 
           <div class="profile-description">
-            <p>Open-source enthusiast and Kotlin lover, here are some of my contribution back to the community.</p>
+            <p>Kotlin enthusiast and proud CS:GO noob, here are some of my contribution back to the community.</p>
           </div>
 
           <article class="profile-menu" id="menu">
@@ -54,13 +54,7 @@
               <li class="menu-item">
                 <div class="menu-item-info{{^description}} has-no-meta-content{{/description}}">
                   <h4 class="menu-item-name">{{name}}</h4>
-                  <span class="menu-item-price">
-                      <a href="{{href}}/releases/latest" target="_blank"><img src="https://img.shields.io/github/release/hendraanggrian/{{name}}.svg"/></a>
-                      <a href="{{href}}" target="_blank"><img src="https://img.shields.io/badge/-GitHub-blue.svg"/></a>
-                      {{#website}}
-                      <a href="{{website}}" target="_blank"><img src="https://img.shields.io/badge/-Homepage-blue.svg"/></a>
-                      {{/website}}
-                  </span>
+                  <span class="menu-item-price">{{#website}}<a href="{{website}}" target="_blank">Website</a> &middot; {{/website}}<a href="{{href}}" target="_blank">GitHub</a></span>
                   {{#description}}
                   <p class="menu-item-description">{{description}}</p>
                   {{/description}}
@@ -78,13 +72,7 @@
               <li class="menu-item">
                 <div class="menu-item-info{{^description}} has-no-meta-content{{/description}}">
                   <h4 class="menu-item-name">{{name}}</h4>
-                  <span class="menu-item-price">
-                      <a href="{{href}}/releases/latest" target="_blank"><img src="https://img.shields.io/github/release/hendraanggrian/{{name}}.svg"/></a>
-                      <a href="{{href}}" target="_blank"><img src="https://img.shields.io/badge/-GitHub-blue.svg"/></a>
-                      {{#website}}
-                      <a href="{{website}}" target="_blank"><img src="https://img.shields.io/badge/-Homepage-blue.svg"/></a>
-                      {{/website}}
-                  </span>
+                  <span class="menu-item-price">{{#website}}<a href="{{website}}" target="_blank">Website</a> &middot; {{/website}}<a href="{{href}}" target="_blank">GitHub</a></span>
                   {{#description}}
                   <p class="menu-item-description">{{description}}</p>
                   {{/description}}
@@ -126,15 +114,11 @@
     <footer class="footer">
       <nav class="footer-navigation">
         <i class="icon-square-footer"></i>
-        <!--ul class="footer-navigation-list">
-          <li class="footer-navigation-item"><a href="https://squareup.com/directory">Square Directory</a></li>
-          <li class="footer-navigation-item"><a href="https://cash.me">Square Cash</a></li>
-          <li class="footer-navigation-item"><a href="https://squareup.com/register">Square Register</a></li>
-          <li class="footer-navigation-item"><a href="https://squareup.com/security">Security</a></li>
-          <li class="footer-navigation-item"><a href="https://squareup.com/legal/privacy">Privacy</a></li>
-          <li class="footer-navigation-item"><a href="https://squareup.com/help" class="track">Help Center</a></li>
-      </ul-->
-        <br/>
+        <ul class="footer-navigation-list">
+          <li class="footer-navigation-item"><a href="https://github.com/hendraanggrian">GitHub</a></li>
+          <li class="footer-navigation-item"><a href="https://bintray.com/hendraanggrian">JFrog Bintray</a></li>
+          <li class="footer-navigation-item"><a href="https://travis-ci.com/hendraanggrian">Travis CI</a></li>
+        </ul>
         <a class="copyright" href="https://github.com/square/square.github.io">Template by Square</a>
       </nav>
     </footer>
