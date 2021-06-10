@@ -1,29 +1,18 @@
 {
   "repos": {
-    "openpss": ["Apps"],
-    "plano": ["Apps"],
+    "collapsingtoolbarlayout-subtitle": ["Android"],
+    "bannerbar": ["Android"],
+    "socialview": ["Android"],
+    "countrypicker": ["Android"],
+    "recyclerview-paginated": ["Android"],
 
-    "prefs": ["Java libraries", "Android libraries"],
+    "generating-gradle-plugin": ["Gradle"],
+    "packaging-gradle-plugin": ["Gradle"],
+    "localization-gradle-plugin": ["Gradle"],
 
-    "ktfx": ["Java libraries"],
-    "javapoet-ktx": ["Java libraries"],
-    "kotlinpoet-ktx": ["Java libraries"],
-
-    "r-gradle-plugin": ["Gradle plugins"],
-    "buildconfig-gradle-plugin": ["Gradle plugins"],
-    "packr-gradle-plugin": ["Gradle plugins"],
-    "locale-gradle-plugin": ["Gradle plugins"],
-
-    "countrypicker": ["Android libraries"],
-    "collapsingtoolbarlayout-subtitle": ["Android libraries"],
-    "errorbar": ["Android libraries"],
-    "pinview": ["Android libraries"],
-    "socialview": ["Android libraries"],
-    "dispatcher": ["Android libraries"],
-    "pikasso": ["Android libraries"],
-    "bundler": ["Android libraries"],
-    "recyclerview-paginated": ["Android libraries"],
-    "recyclerview-expandable": ["Android libraries"]
+    "ktfx": ["Kotlin"],
+    "javapoet-ktx": ["Kotlin"],
+    "kotlinpoet-ktx": ["Kotlin"]
   },
   "custom": []
 }
