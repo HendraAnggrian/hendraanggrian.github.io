@@ -1,18 +1,19 @@
 {
   "repos": {
-    "collapsingtoolbarlayout-subtitle": ["Android"],
     "bannerbar": ["Android"],
-    "socialview": ["Android"],
+    "bundles": ["Android"],
+    "collapsingtoolbarlayout-subtitle": ["Android"],
     "countrypicker": ["Android"],
-    "recyclerview-paginated": ["Android"],
-
     "generating-gradle-plugin": ["Gradle"],
-    "packaging-gradle-plugin": ["Gradle"],
+    "javapoet-ktx": ["JVM"],
+    "kotlinpoet-ktx": ["JVM"],
+    "ktfx": ["JVM"],
     "localization-gradle-plugin": ["Gradle"],
-
-    "ktfx": ["Kotlin"],
-    "javapoet-ktx": ["Kotlin"],
-    "kotlinpoet-ktx": ["Kotlin"]
+    "packaging-gradle-plugin": ["Gradle"],
+    "picasso-ktx": ["Android"],
+    "prefs": ["Android", "JVM"],
+    "recyclerview-paginated": ["Android"],
+    "socialview": ["Android"]
   },
   "custom": []
 }
