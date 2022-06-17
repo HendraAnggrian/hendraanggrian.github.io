@@ -1,7 +1,7 @@
 Square Open Source Portal
 =========================
 
-[![build](https://travis-ci.com/hendraanggrian/hendraanggrian.github.io)](https://travis-ci.com/hendraanggrian/hendraanggrian.github.io)
+[![Travis CI](https://img.shields.io/travis/com/hendraanggrian/hendraanggrian.github.io)](https://travis-ci.com/github/hendraanggrian/hendraanggrian.github.io/)
 
 A simple, static portal which outlines our open source offerings. Intentionally
 themed to look like a Square merchant page on the directory.
@@ -37,7 +37,7 @@ as a template.
 Repository data is pulled via the GitHub API (e.g., website). By default the
 script performs unauthenticated requests, so it's easy to run up against
 GitHub's limit of [60 unauthenticated requests per
-hour](http://developer.github.com/v3/#rate-limiting). To make authenticated
+hour](http://developer.github.com/v3/#rate-limiting/). To make authenticated
 requests and work around the rate-limiting, add an entry for api.github.com to
 your ~/.netrc file, preferably with a Personal Access Token from
 https://github.com/settings/tokens
