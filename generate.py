@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 from collections import defaultdict
 import codecs
@@ -8,30 +8,23 @@ import pystache
 import requests
 import time
 import netrc
-from pygithub3 import Github
+from github import Github
 
 repos_in = 'repos.json'
 index_in = 'index.mustache'
 index_out = 'index.html'
 
 auth = netrc.netrc()
-try:
-  (login, _, password) = auth.authenticators('api.github.com')
-  ghclient = Github(login=login, password=password)
-  logged_in = True
-except:
-  ghclient = Github()
-  logged_in = False
+(login, _, password) = auth.authenticators('api.github.com')
+
+gh = Github(password)
 
 def gh_repo(name):
   print('Fetching "%s" repo information...' % name)
   # Use the following for development so you do not hammer the GitHub API.
-  #return {'name': name, 'html_url': 'http://google.com', 'homepage': 'http://example.com', 'description': 'Description!'}
+  # return {'name': name, 'html_url': 'http://google.com', 'homepage': 'http://example.com', 'description': 'Description!'}
 
-  if not logged_in:
-    time.sleep(2.0) # Take a nap so GitHub doesn't aggressively throttle us.
-
-  repo = ghclient.repos.get(user='hendraanggrian', repo=name)
+  repo = gh.get_repo('hendraanggrian/' + name)
   return dict(
     name=repo.name,
     homepage=repo.homepage,
@@ -74,7 +67,7 @@ context = {
 }
 
 # Loop over the category names sorted alphabetically (case-insensitive) with 'Other' last.
-for category_name in sorted(categories.keys(), key=lambda s: s.lower() if s is not 'Other' else 'z'*10):
+for category_name in sorted(categories.keys(), key=lambda s: s.lower() if s != 'Other' else 'z'*10):
   data = {
     'name': category_name,
     'index': category_name.lower(),
@@ -93,7 +86,7 @@ for category_name in sorted(categories.keys(), key=lambda s: s.lower() if s is n
       'website': repo_data.get('homepage', None),
       'description': repo_data.get('description', None)
     }
-    if os.path.exists(os.path.join('repo_images', '%s.png' % name)):
+    if os.path.exists(os.path.join('images/repos', '%s.png' % name)):
       data['repos_with_images'].append(repo)
       data['has_repos_with_images'] = True
     else:

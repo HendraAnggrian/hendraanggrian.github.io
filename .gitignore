@@ -1,1 +1,10 @@
+# macOS
+**/.DS_Store
+
+# IDEA
+*.iml
+.idea/
+out/
+
+# Jekyll
 _site

@@ -39,95 +39,95 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* fonts */
 @font-face {
   font-family: "SQMarket";
-  src: url("/fonts/sqmarket-bold.eot");
-  src: url("/fonts/sqmarket-bold.eot?#iefix") format("eot"), url("/fonts/sqmarket-bold.woff") format("woff"), url("/fonts/sqmarket-bold.ttf") format("truetype");
+  src: url("/styles/fonts/sqmarket-bold.eot");
+  src: url("/styles/fonts/sqmarket-bold.eot?#iefix") format("eot"), url("/styles/fonts/sqmarket-bold.woff") format("woff"), url("/styles/fonts/sqmarket-bold.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "SQMarket";
-  src: url("/fonts/sqmarket-bold.eot");
-  src: url("/fonts/sqmarket-bold.eot?#iefix") format("eot"), url("/fonts/sqmarket-bold.woff") format("woff"), url("/fonts/sqmarket-bold.ttf") format("truetype");
+  src: url("/styles/fonts/sqmarket-bold.eot");
+  src: url("/styles/fonts/sqmarket-bold.eot?#iefix") format("eot"), url("/styles/fonts/sqmarket-bold.woff") format("woff"), url("/styles/fonts/sqmarket-bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: "SQMarket";
-  src: url("/fonts/sqmarket-bolditalic.eot");
-  src: url("/fonts/sqmarket-bolditalic.eot?#iefix") format("eot"), url("/fonts/sqmarket-bolditalic.woff") format("woff"), url("/fonts/sqmarket-bolditalic.ttf") format("truetype");
+  src: url("/styles/fonts/sqmarket-bolditalic.eot");
+  src: url("/styles/fonts/sqmarket-bolditalic.eot?#iefix") format("eot"), url("/styles/fonts/sqmarket-bolditalic.woff") format("woff"), url("/styles/fonts/sqmarket-bolditalic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
 }
 @font-face {
   font-family: "SQMarket";
-  src: url("/fonts/sqmarket-bolditalic.eot");
-  src: url("/fonts/sqmarket-bolditalic.eot?#iefix") format("eot"), url("/fonts/sqmarket-bolditalic.woff") format("woff"), url("/fonts/sqmarket-bolditalic.ttf") format("truetype");
+  src: url("/styles/fonts/sqmarket-bolditalic.eot");
+  src: url("/styles/fonts/sqmarket-bolditalic.eot?#iefix") format("eot"), url("/styles/fonts/sqmarket-bolditalic.woff") format("woff"), url("/styles/fonts/sqmarket-bolditalic.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
 }
 @font-face {
   font-family: "SQMarket";
-  src: url("/fonts/sqmarket-light.eot");
-  src: url("/fonts/sqmarket-light.eot?#iefix") format("eot"), url("/fonts/sqmarket-light.woff") format("woff"), url("/fonts/sqmarket-light.ttf") format("truetype");
+  src: url("/styles/fonts/sqmarket-light.eot");
+  src: url("/styles/fonts/sqmarket-light.eot?#iefix") format("eot"), url("/styles/fonts/sqmarket-light.woff") format("woff"), url("/styles/fonts/sqmarket-light.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
   font-family: "SQMarket";
-  src: url("/fonts/sqmarket-lightitalic.eot");
-  src: url("/fonts/sqmarket-lightitalic.eot?#iefix") format("eot"), url("/fonts/sqmarket-lightitalic.woff") format("woff"), url("/fonts/sqmarket-lightitalic.ttf") format("truetype");
+  src: url("/styles/fonts/sqmarket-lightitalic.eot");
+  src: url("/styles/fonts/sqmarket-lightitalic.eot?#iefix") format("eot"), url("/styles/fonts/sqmarket-lightitalic.woff") format("woff"), url("/styles/fonts/sqmarket-lightitalic.ttf") format("truetype");
   font-weight: 200;
   font-style: italic;
 }
 @font-face {
   font-family: "SQMarket";
-  src: url("/fonts/sqmarket-medium.eot");
-  src: url("/fonts/sqmarket-medium.eot?#iefix") format("eot"), url("/fonts/sqmarket-medium.woff") format("woff"), url("/fonts/sqmarket-medium.ttf") format("truetype");
+  src: url("/styles/fonts/sqmarket-medium.eot");
+  src: url("/styles/fonts/sqmarket-medium.eot?#iefix") format("eot"), url("/styles/fonts/sqmarket-medium.woff") format("woff"), url("/styles/fonts/sqmarket-medium.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "SQMarket";
-  src: url("/fonts/sqmarket-mediumitalic.eot");
-  src: url("/fonts/sqmarket-mediumitalic.eot?#iefix") format("eot"), url("/fonts/sqmarket-mediumitalic.woff") format("woff"), url("/fonts/sqmarket-mediumitalic.ttf") format("truetype");
+  src: url("/styles/fonts/sqmarket-mediumitalic.eot");
+  src: url("/styles/fonts/sqmarket-mediumitalic.eot?#iefix") format("eot"), url("/styles/fonts/sqmarket-mediumitalic.woff") format("woff"), url("/styles/fonts/sqmarket-mediumitalic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
 }
 @font-face {
   font-family: "SQMarket";
-  src: url("/fonts/sqmarket-regular.eot");
-  src: url("/fonts/sqmarket-regular.eot?#iefix") format("eot"), url("/fonts/sqmarket-regular.woff") format("woff"), url("/fonts/sqmarket-regular.ttf") format("truetype");
+  src: url("/styles/fonts/sqmarket-regular.eot");
+  src: url("/styles/fonts/sqmarket-regular.eot?#iefix") format("eot"), url("/styles/fonts/sqmarket-regular.woff") format("woff"), url("/styles/fonts/sqmarket-regular.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "SQMarket";
-  src: url("/fonts/sqmarket-regular.eot");
-  src: url("/fonts/sqmarket-regular.eot?#iefix") format("eot"), url("/fonts/sqmarket-regular.woff") format("woff"), url("/fonts/sqmarket-regular.ttf") format("truetype");
+  src: url("/styles/fonts/sqmarket-regular.eot");
+  src: url("/styles/fonts/sqmarket-regular.eot?#iefix") format("eot"), url("/styles/fonts/sqmarket-regular.woff") format("woff"), url("/styles/fonts/sqmarket-regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "SQMarket";
-  src: url("/fonts/sqmarket-regularitalic.eot");
-  src: url("/fonts/sqmarket-regularitalic.eot?#iefix") format("eot"), url("/fonts/sqmarket-regularitalic.woff") format("woff"), url("/fonts/sqmarket-regularitalic.ttf") format("truetype");
+  src: url("/styles/fonts/sqmarket-regularitalic.eot");
+  src: url("/styles/fonts/sqmarket-regularitalic.eot?#iefix") format("eot"), url("/styles/fonts/sqmarket-regularitalic.woff") format("woff"), url("/styles/fonts/sqmarket-regularitalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
 }
 @font-face {
   font-family: "SQMarket";
-  src: url("/fonts/sqmarket-regularitalic.eot");
-  src: url("/fonts/sqmarket-regularitalic.eot?#iefix") format("eot"), url("/fonts/sqmarket-regularitalic.woff") format("woff"), url("/fonts/sqmarket-regularitalic.ttf") format("truetype");
+  src: url("/styles/fonts/sqmarket-regularitalic.eot");
+  src: url("/styles/fonts/sqmarket-regularitalic.eot?#iefix") format("eot"), url("/styles/fonts/sqmarket-regularitalic.woff") format("woff"), url("/styles/fonts/sqmarket-regularitalic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
 
 /* sprites */
 .directory-icons-sprite, .logo:after, .logo h1, .search-field:before, .focus .search-field:before, .half .search-location-button, .half .search-location-button:hover, .half .search-location-button:focus, .full .search-location-button, .full .search-location-button.location-expanded:hover, .full .search-location-button.location-expanded:focus, .full .search-location-button.location-on, .search-swap-button, .navigation-picture, .navigation-picture:hover, .navigation-picture:focus, .navigation-picture:active, .icon-square-footer, .icon-mobile-merchant, .icon-left-arrow, .icon-right-arrow {
-  background: url(/assets/sprites/directory-icons-sprite.png) no-repeat;
+  background: url(/images/sprites/directory-icons-sprite.png) no-repeat;
 }
 .profile-icons-sprite, .icon-twitter, .icon-facebook, .reward-punch-card:before, .reward-cash:before, .reward-percent:before, .icon-image-previous, .icon-image-next, .profile-image-dot, .profile-image-dot:hover, .profile-image-dot:focus, .profile-image-dot.current {
-  background: url(/assets/sprites/profile-icons-sprite.png) no-repeat;
+  background: url(/images/sprites/profile-icons-sprite.png) no-repeat;
 }
 
 * {
@@ -136,14 +136,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   box-sizing: border-box;
 }
 html {
-  background: #212121;
+  background: #f4f5f6;
   height: 100%;
   min-width: 320px;
 }
 body {
-  background: #212121;
+  background: #fff;
   *zoom: 1;
-  color: white;
+  color: #2d3c48;
   font: 14px "SQMarket", "Helvetica Neue", sans-serif;
   line-height: 20px;
   width: 100%;
@@ -161,7 +161,7 @@ body.modal {
   overflow-y: hidden;
 }
 a {
-  color: #448aff;
+  color: #3e8cb7;
   text-decoration: none;
 }
 button, input, textarea {
@@ -213,9 +213,9 @@ p {
   min-height: 511px;
 }
 .footer {
-  background: #131313;
-  width: 100%;
-}
+  background: #f4f5f6;
+  border-top: 1px solid #eff0f1;
+  width: 100%}
 .footer-navigation {
   color: #b0b8c1;
   margin: 0 auto;
@@ -290,7 +290,7 @@ p {
 .menu-category-name, .homepage-section-name, .module-name {
   font-size: 1.57143em;
   line-height: 1.18182em;
-  color: #fff;
+  color: #2d3c48;
   font-weight: 300;
   position: relative;
   left: -1px;
@@ -304,13 +304,6 @@ p {
   background-position: 0 -82px;
   height: 40px;
   width: 40px;
-}
-.icon-gplus {
-  background: url('/images/gplus.png') no-repeat;
-  height: 40px;
-  width: 40px;
-  display: inline-block;
-  vertical-align: middle;
 }
 .profile {
   font-size: 0.875em;
@@ -432,7 +425,7 @@ p {
   white-space: nowrap;
 }
 .summary-phone {
-  color: white;
+  color: #959ba2;
 }
 .address-street {
   text-transform: capitalize;
@@ -614,7 +607,7 @@ p {
   text-align: center;
 }
 .profile-description:before {
-  border-top: 1px solid #424242;
+  border-top: 1px solid #eff0f1;
   content: "";
   display: block;
   margin: 0 -5px;
@@ -668,7 +661,7 @@ p {
   padding-top: 3em;
 }
 .menu-category:first-of-type:before {
-  border-top: 1px solid #424242;
+  border-top: 1px solid #eff0f1;
   content: "";
   display: block;
   margin: 0 -5px;
@@ -681,7 +674,7 @@ p {
   padding-bottom: 0.92857em;
 }
 .menu-category:not(:first-of-type):before {
-  border-top: 1px solid #424242;
+  border-top: 1px solid #eff0f1;
   content: "";
   display: block;
   margin: 0 -5px;
@@ -748,7 +741,7 @@ p {
   transition: opacity 0.3s ease;
 }
 .menu-item-image.image-error:before {
-  background: #f2f2f2 url(/assets/public/broken-image.png) center 51% no-repeat;
+  background: #f2f2f2 url(/images/public/broken-image.png) center 51% no-repeat;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
@@ -779,13 +772,13 @@ p {
   white-space: normal;
 }
 .menu-item-description, .business-info-address, .business-bio {
-  color: rgba(255, 255, 255, 0.7);
+  color: #959ba2;
 }
 .has-images .menu-item-description, .has-images .business-info-address, .has-images .business-bio {
   overflow: hidden;
 }
 .menu-item-price {
-  color: #448aff;
+  color: #72b16e;
   display: block;
 }
 .menu-item-variations .menu-item-price {
@@ -795,10 +788,10 @@ p {
   display: inline-block;
 }
 .menu-item-price-range {
-  color: #448aff;
+  color: #72b16e;
 }
 .menu-item-price a, .menu-item-price-range a {
-  color: #448aff;
+  color: #72b16e;
 }
 .menu-item-variations {
   margin-top: 0.21429em;
@@ -814,13 +807,13 @@ p {
   margin-top: 0.14286em;
 }
 .menu-item-variation {
-  color: white;
+  color: #959ba2;
   font-style: italic;
 }
 .btn-view-full-menu {
   background: none;
   border: none;
-  color: #448aff;
+  color: #3e8cb7;
   cursor: pointer;
   display: block;
   font-size: 14px;
@@ -837,7 +830,7 @@ p {
   padding-top: 0.71429em;
 }
 .profile-modules:before {
-  border-top: 1px solid #424242;
+  border-top: 1px solid #eff0f1;
   content: "";
   display: block;
   margin: 0 -5px;
@@ -848,7 +841,7 @@ p {
   padding-bottom: 2.42857em;
 }
 .profile-module:before {
-  border-top: 1px solid #424242;
+  border-top: 1px solid #eff0f1;
   content: "";
   display: block;
   margin: 0 -5px;
@@ -899,7 +892,7 @@ p {
   clear: both;
 }
 .module-author-name {
-  color: white;
+  color: #959ba2;
 }
 .module-thumbnail {
   float: left;
@@ -913,7 +906,7 @@ p {
   display: block;
 }
 .module-hours {
-  color: white;
+  color: #959ba2;
 }
 .module-hours-today {
   color: #2d3c48;
@@ -1018,7 +1011,7 @@ p {
     display: none;
   }
   .summary-distance {
-    color: white;
+    color: #959ba2;
     display: block;
     pointer-events: none;
   }
@@ -1048,7 +1041,7 @@ p {
     left: 0;
   }
   .profile-image-dot:hover, .profile-image-dot:focus, .profile-image-dot.current {
-    background: url(/assets/sprites/profile-icons-hidpi-sprite.png) no-repeat;
+    background: url(/images/sprites/profile-icons-hidpi-sprite.png) no-repeat;
     background-position: 0 -278px;
     background-size: 42px auto;
     height: 9px;
@@ -1284,7 +1277,7 @@ p {
     display: none;
   }
   .summary-distance {
-    color: white;
+    color: #959ba2;
     display: block;
     pointer-events: none;
   }
@@ -1316,7 +1309,7 @@ p {
     left: 0;
   }
   .profile-image-dot:hover, .profile-image-dot:focus, .profile-image-dot.current {
-    background: url(/assets/sprites/profile-icons-hidpi-sprite.png) no-repeat;
+    background: url(/images/sprites/profile-icons-hidpi-sprite.png) no-repeat;
     background-position: 0 -278px;
     background-size: 42px auto;
     height: 9px;
@@ -2366,85 +2359,85 @@ p {
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5),  screen and (min-resolution: 144dpi) {
   .logo:after {
-    background: url(/assets/sprites/directory-icons-hidpi-sprite.png) no-repeat;
+    background: url(/images/sprites/directory-icons-hidpi-sprite.png) no-repeat;
     background-position: 0 0;
     background-size: 84px auto;
     height: 26px;
     width: 84px;
   }
   .logo h1 {
-    background: url(/assets/sprites/directory-icons-hidpi-sprite.png) no-repeat;
+    background: url(/images/sprites/directory-icons-hidpi-sprite.png) no-repeat;
     background-position: 0 -146px;
     background-size: 84px auto;
     height: 30px;
     width: 30px;
   }
   .icon-square-footer {
-    background: url(/assets/sprites/directory-icons-hidpi-sprite.png) no-repeat;
+    background: url(/images/sprites/directory-icons-hidpi-sprite.png) no-repeat;
     background-position: 0 -176px;
     background-size: 84px auto;
     height: 22px;
     width: 22px;
   }
   .icon-twitter {
-    background: url(/assets/sprites/profile-icons-hidpi-sprite.png) no-repeat;
+    background: url(/images/sprites/profile-icons-hidpi-sprite.png) no-repeat;
     background-position: 0 -42px;
     background-size: 42px auto;
     height: 40px;
     width: 40px;
   }
   .icon-facebook {
-    background: url(/assets/sprites/profile-icons-hidpi-sprite.png) no-repeat;
+    background: url(/images/sprites/profile-icons-hidpi-sprite.png) no-repeat;
     background-position: 0 -82px;
     background-size: 42px auto;
     height: 40px;
     width: 40px;
   }
   .icon-image-previous {
-    background: url(/assets/sprites/profile-icons-hidpi-sprite.png) no-repeat;
+    background: url(/images/sprites/profile-icons-hidpi-sprite.png) no-repeat;
     background-position: 0 -190px;
     background-size: 42px auto;
     height: 44px;
     width: 25px;
   }
   .icon-image-next {
-    background: url(/assets/sprites/profile-icons-hidpi-sprite.png) no-repeat;
+    background: url(/images/sprites/profile-icons-hidpi-sprite.png) no-repeat;
     background-position: 0 -234px;
     background-size: 42px auto;
     height: 44px;
     width: 25px;
   }
   .profile-image-dot {
-    background: url(/assets/sprites/profile-icons-hidpi-sprite.png) no-repeat;
+    background: url(/images/sprites/profile-icons-hidpi-sprite.png) no-repeat;
     background-position: 0 -287px;
     background-size: 42px auto;
     height: 9px;
     width: 9px;
   }
   .profile-image-dot:hover, .profile-image-dot:focus, .profile-image-dot.current {
-    background: url(/assets/sprites/profile-icons-hidpi-sprite.png) no-repeat;
+    background: url(/images/sprites/profile-icons-hidpi-sprite.png) no-repeat;
     background-position: 0 -296px;
     background-size: 42px auto;
     height: 9px;
     width: 9px;
   }
   .menu-item-image.image-error:before {
-    background-image: url(/assets/public/broken-image-hidpi.png);
+    background-image: url(/images/public/broken-image-hidpi.png);
     background-size: 36px auto;
   }
   .image-error:before {
-    background-image: url(/assets/public/broken-image-hidpi.png);
+    background-image: url(/images/public/broken-image-hidpi.png);
     background-size: 36px auto;
   }
   .icon-left-arrow {
-    background: url(/assets/sprites/directory-icons-hidpi-sprite.png) no-repeat;
+    background: url(/images/sprites/directory-icons-hidpi-sprite.png) no-repeat;
     background-position: 0 -268px;
     background-size: 84px auto;
     height: 12px;
     width: 8px;
   }
   .icon-right-arrow {
-    background: url(/assets/sprites/directory-icons-hidpi-sprite.png) no-repeat;
+    background: url(/images/sprites/directory-icons-hidpi-sprite.png) no-repeat;
     background-position: 0 -256px;
     background-size: 84px auto;
     height: 12px;
