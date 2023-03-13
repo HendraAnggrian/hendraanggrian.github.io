@@ -8,3 +8,4 @@ out/
 
 # Jekyll
 _site
+.jekyll-cache

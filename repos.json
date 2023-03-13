@@ -1,5 +1,9 @@
 {
   "repos": {
+    "java-starters": ["Java"],
+    "kotlin-starters": ["Kotlin"],
+    "rulebook": ["Java", "Kotlin"],
+
     "javapoet-dsl": ["Kotlin"],
     "kotlinpoet-dsl": ["Kotlin"],
     "ktfx": ["Kotlin"],
@@ -12,10 +16,14 @@
     "packaging-gradle-plugin": ["Gradle"],
     "pages-gradle-plugin": ["Gradle"],
 
-    "prepress-adobe-scripts": ["ExtendScript"],
-
     "auto-bundler": ["Android"],
-    "auto-prefs": ["Kotlin", "Android"]
+    "auto-prefs": ["Kotlin", "Android"],
+
+    "minimal-theme": ["Web"],
+    "cayman-theme": ["Web"],
+
+    "prepress-adobe-scripts": ["Others"],
+    "markdown-pdf-styles": ["Others"]
   },
   "custom": []
 }
