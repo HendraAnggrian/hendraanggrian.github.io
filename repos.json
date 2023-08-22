@@ -1,8 +1,9 @@
 {
   "repos": {
     "java-starters": ["Java"],
+    "groovy-starters": ["Groovy"],
     "kotlin-starters": ["Kotlin"],
-    "rulebook": ["Java", "Kotlin"],
+    "rulebook": ["Java", "Groovy", "Kotlin"],
 
     "javapoet-dsl": ["Kotlin"],
     "kotlinpoet-dsl": ["Kotlin"],
@@ -10,6 +11,7 @@
 
     "collapsingtoolbarlayout-subtitle": ["Android"],
     "socialview": ["Android"],
+    "dangerous": ["Android"],
 
     "generating-gradle-plugin": ["Gradle"],
     "localization-gradle-plugin": ["Gradle"],
@@ -19,11 +21,11 @@
     "auto-bundler": ["Android"],
     "auto-prefs": ["Kotlin", "Android"],
 
-    "minimal-theme": ["Web"],
-    "cayman-theme": ["Web"],
+    "minimal-theme": ["Website"],
+    "cayman-theme": ["Website"],
 
-    "prepress-adobe-scripts": ["Others"],
-    "markdown-pdf-styles": ["Others"]
+    "prepress-adobe-scripts": ["Other"],
+    "markdown-pdf-styles": ["Other"]
   },
   "custom": []
 }
