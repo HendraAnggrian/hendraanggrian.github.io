@@ -10,7 +10,9 @@
     "ktfx": ["Kotlin"],
 
     "collapsingtoolbarlayout-subtitle": ["Android"],
+    "countrypicker": ["Android"],
     "socialview": ["Android"],
+    "pinview": ["Android"],
     "dangerous": ["Android"],
 
     "generating-gradle-plugin": ["Gradle"],
@@ -21,8 +23,9 @@
     "auto-bundler": ["Android"],
     "auto-prefs": ["Kotlin", "Android"],
 
-    "minimal-theme": ["Website"],
-    "cayman-theme": ["Website"],
+    "minimal-dark-theme": ["CSS"],
+    "cayman-dark-theme": ["CSS"],
+    "materialist-theme": ["CSS"],
 
     "prepress-adobe-scripts": ["Other"],
     "markdown-pdf-styles": ["Other"]
