@@ -267,7 +267,7 @@ p {
   /*unset*/ text-decoration: underline;
 }
 .copyright {
-  white-space: nowrap;
+  /*white-space: nowrap;*/
 }
 .hidden {
   display: none;
@@ -1701,7 +1701,7 @@ p {
     width: 51.42857em;
   }
   .footer-navigation-list, .copyright {
-    white-space: nowrap;
+    /*white-space: nowrap;*/
   }
   .menu-item, .business {
     width: 31.52909%;
@@ -1938,7 +1938,7 @@ p {
     width: 62em;
   }
   .footer-navigation-list, .copyright {
-    white-space: nowrap;
+    /*white-space: nowrap;*/
   }
   .menu-item, .business {
     width: 31.7983%;
