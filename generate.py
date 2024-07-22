@@ -24,7 +24,7 @@ def gh_repo(name):
   # Use the following for development so you do not hammer the GitHub API.
   # return {'name': name, 'html_url': 'http://google.com', 'homepage': 'http://example.com', 'description': 'Description!'}
 
-  repo = gh.get_repo('hendraanggrian/' + name)
+  repo = gh.get_repo('hanggrian/' + name)
   return dict(
     name=repo.name,
     homepage=repo.homepage,

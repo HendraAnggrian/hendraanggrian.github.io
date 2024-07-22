@@ -1,10 +1,19 @@
 # macOS
-**/.DS_Store
+.DS_Store
+._*
 
 # IDEA
 *.iml
 .idea/
 out/
+
+# PyCharm
+.venv/
+.pytest_cache/
+__pycache__/
+*.egg-info/
+.coverage
+dist/
 
 # Jekyll
 _site
