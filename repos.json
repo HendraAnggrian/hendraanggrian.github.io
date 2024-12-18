@@ -3,7 +3,7 @@
     "java-starters": ["Java"],
     "groovy-starters": ["Groovy"],
     "kotlin-starters": ["Kotlin"],
-    "rulebook": ["Java", "Groovy", "Kotlin"],
+    "rulebook": ["Android", "Groovy", "Java", "Kotlin", "Python"],
 
     "javapoet-dsl": ["Kotlin"],
     "kotlinpoet-dsl": ["Kotlin"],
@@ -13,22 +13,18 @@
     "countrypicker": ["Android"],
     "socialview": ["Android"],
     "pinview": ["Android"],
-    "dangerous": ["Android"],
 
     "generating-gradle-plugin": ["Gradle"],
     "localization-gradle-plugin": ["Gradle"],
     "packaging-gradle-plugin": ["Gradle"],
     "pages-gradle-plugin": ["Gradle"],
 
-    "auto-bundler": ["Android"],
-    "auto-prefs": ["Kotlin", "Android"],
-
     "minimal-dark-theme": ["CSS"],
     "cayman-dark-theme": ["CSS"],
     "materialist-theme": ["CSS"],
+    "markdown-pdf-styles": ["CSS"],
 
-    "prepress-adobe-scripts": ["Other"],
-    "markdown-pdf-styles": ["Other"]
+    "prepress-adobe-scripts": ["ExtendScript"]
   },
   "custom": []
 }
